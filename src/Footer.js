@@ -7,7 +7,7 @@ export default function Footer() {
         <a
           href="https://github.com/aivirrne/weather-project"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           Open-source code
         </a>

@@ -5,7 +5,7 @@ export default function Weather() {
     <div className="Weather">
       <div className="row g-3 current-weather">
         <div className="col-5 align-self-center">
-          <div className="weather-icon">☁️</div>
+          <div className="weather-icon">clouds</div>
         </div>
         <div className="col-3 align-self-center">
           <div className="temp-weather-block">
@@ -19,10 +19,10 @@ export default function Weather() {
         <div className="col-4 align-self-center">
           <div className="wind-rain-hum-block">
             <p className="wind-rain-hum">
-              ⭐️ Feels like: <span>18</span>°C
+              Feels like: <span>18</span>°C
               <br />
-              💨 Wind: <span>5</span> mph <br />
-              💧 Humidity: <span>73</span>%
+              Wind: <span>5</span> mph <br />
+              Humidity: <span>73</span>%
             </p>
           </div>
         </div>
