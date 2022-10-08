@@ -5,7 +5,7 @@ export default function Footer() {
     <div className="Footer">
       <div className="credits">
         <a
-          href="https://github.com/aivirrne/weather-project"
+          href="https://github.com/aivirrne/weather-react"
           target="_blank"
           rel="noopener noreferrer"
         >
