@@ -23,16 +23,16 @@ export default function Weather() {
         <div className="col-4 align-self-center">
           <div className="wind-rain-hum-block">
             <p className="wind-rain-hum">
-              <span role="img" aria-label="feels">
+              <span className="small-icon" role="img" aria-label="feels">
                 ⭐️
               </span>
               Feels like: <span>18</span>°C
               <br />
-              <span role="img" aria-label="wind">
+              <span className="small-icon" role="img" aria-label="wind">
                 💨
               </span>
               Wind: <span>5</span> mph <br />
-              <span role="img" aria-label="humidity">
+              <span className="small-icon" role="img" aria-label="humidity">
                 💦
               </span>
               Humidity: <span>73</span>%

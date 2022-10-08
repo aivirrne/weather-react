@@ -80,3 +80,7 @@
   text-transform: uppercase;
   font-size: 12px;
 }
+
+.small-icon {
+  margin-right: 4px;
+}
