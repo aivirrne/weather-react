@@ -2,12 +2,10 @@ import React from "react";
 import "./styles.css";
 import Content from "./Content";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <Content />
     </div>
   );
 }
-
-export default App;
