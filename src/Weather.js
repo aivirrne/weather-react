@@ -1,4 +1,5 @@
 import React from "react";
+import ReadableDate from "./ReadableDate";
 
 export default function Weather(props) {
   return (
@@ -7,7 +8,7 @@ export default function Weather(props) {
         <p>
           Current weather in <span>Wrocław</span>
           <br />
-          <span>Thursday, 13:50</span>
+          <ReadableDate date={props.data.date} />
         </p>
       </div>
       <div className="row g-3 current-weather">
