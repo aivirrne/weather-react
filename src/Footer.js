@@ -10,7 +10,7 @@ export default function Footer() {
           rel="noopener noreferrer"
         >
           Open-source code
-        </a>
+        </a>{" "}
         by Zina Mishchenko
       </div>
     </div>

@@ -1,8 +1,15 @@
 import React from "react";
 
-export default function Weather() {
+export default function Weather(props) {
   return (
     <div className="Weather">
+      <div className="current-city">
+        <p>
+          Current weather in <span>Wrocław</span>
+          <br />
+          <span>Thursday, 13:50</span>
+        </p>
+      </div>
       <div className="row g-3 current-weather">
         <div className="col-5 align-self-center">
           <div className="weather-icon">
@@ -31,11 +38,11 @@ export default function Weather() {
               <span className="small-icon" role="img" aria-label="wind">
                 💨
               </span>
-              Wind: <span>5</span> mph <br />
+              Wind: {props.data.wind} mph <br />
               <span className="small-icon" role="img" aria-label="humidity">
                 💦
               </span>
-              Humidity: <span>73</span>%
+              Humidity: {props.data.humidity}%
             </p>
           </div>
         </div>
