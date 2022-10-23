@@ -1,28 +1,8 @@
 import React from "react";
 import ReadableDate from "./ReadableDate";
+import WeatherIcon from "./WeatherIcon";
 
 export default function Weather(props) {
-  const emojis = {
-    "01d": "☀️",
-    "01n": "✨",
-    "02d": "🌤",
-    "02n": "☁️",
-    "03d": "⛅️",
-    "03n": "☁️",
-    "04d": "☁️",
-    "04n": "☁️",
-    "09d": "🌧",
-    "09n": "🌧",
-    "10d": "🌦",
-    "10n": "🌧",
-    "11d": "🌩",
-    "11n": "🌩",
-    "13d": "❄️",
-    "13n": "❄️",
-    "50d": "🌫",
-    "50n": "🌫",
-  };
-
   return (
     <div className="Weather">
       <div className="current-city">
@@ -36,7 +16,7 @@ export default function Weather(props) {
         <div className="col-5 align-self-center">
           <div className="weather-icon">
             <span role="img" aria-label="weather">
-              {emojis[`${props.data.icon}`]}
+              <WeatherIcon code={props.data.icon} />
             </span>
           </div>
         </div>
