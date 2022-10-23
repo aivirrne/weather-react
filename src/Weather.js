@@ -6,11 +6,11 @@ export default function Weather(props) {
   return (
     <div className="Weather">
       <div className="current-city">
-        <p>
+        <div>
           Current weather in {props.data.city}
           <br />
           <ReadableDate date={props.data.date} />
-        </p>
+        </div>
       </div>
       <div className="row g-3 current-weather">
         <div className="col-5 align-self-center">
