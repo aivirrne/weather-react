@@ -1,8 +1,8 @@
 # Weather project (React)
 
-[![Header](https://github.com/aivirrne/weather-react/blob/main/assets/weather-react-preview.png)](https://merry-dango-50f307.netlify.app/)
-
 **This small app shows the current weather and weather forecast for five days in any town in the world ☀️**
+
+[![Header](https://github.com/aivirrne/weather-react/blob/main/assets/weather-react-preview.png)](https://merry-dango-50f307.netlify.app/)
 
 [Link to the project 🚀](https://merry-dango-50f307.netlify.app/)
 
